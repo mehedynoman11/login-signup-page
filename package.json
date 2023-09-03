@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "npm install && npm run build",
+    "start": "npm install && node app.js",
     "build": "echo 'Running build steps'"
   },
   "keywords": [],
