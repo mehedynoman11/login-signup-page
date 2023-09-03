@@ -173,7 +173,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // MongoDB connection
-mongoose.connect("mongodb://localhost:27017/loginDB", {
+mongoose.connect("mongodb+srv://mehedynoman11:Nomann11123@cluster0.harqqmn.mongodb.net/loginDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
