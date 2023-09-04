@@ -130,7 +130,7 @@ app.get("/pricing", function(req, res) {
 });
 
 app.get("/features", function(req, res) {
-  res.render("Features");
+  res.render("features");
 });
 
 app.get("/about", function(req, res) {
