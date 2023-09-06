@@ -11,9 +11,15 @@ h1:hover::before {
 header {
 
   margin-bottom: 1000px;
-  text-align: center;
   color: white;
   font-size: 15px;
+}
+
+navaro{
+  position: relative;
+  padding: 6px;
+  align-content: center;
+  background-color: azure;
 }
 
 h1::before {
